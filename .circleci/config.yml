@@ -277,9 +277,14 @@ references:
       when: always
       command: |
         cd Tests/demistomock
+        ls -la
         mv demistomock.py demisto.py
+        ls -la
+        echo $CIRCLE_ARTIFACTS/demistoclass.md
+        pydoc-markdown -p demisto
         pydoc-markdown -p demisto > $CIRCLE_ARTIFACTS/demistoclass.md
         mv demisto.py demistomock.py
+        ls -la
 
   collect_test_list_and_content_packs: &collect_test_list_and_content_packs
     run:
