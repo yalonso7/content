@@ -276,9 +276,10 @@ references:
       name: Demisto Class Documentation
       when: always
       command: |
-        mv Tests/demistomock/demistomock.py Tests/demistomock/demisto.py
+        cd Tests/demistomock
+        mv demistomock.py demisto.py
         pydoc-markdown -p demisto > "$CIRCLE_ARTIFACTS/demistoclass.md"
-        mv Tests/demistomock/demisto.py Tests/demistomock/demistomock.py
+        mv demisto.py demistomock.py
 
   collect_test_list_and_content_packs: &collect_test_list_and_content_packs
     run:
