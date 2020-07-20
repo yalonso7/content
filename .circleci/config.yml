@@ -278,7 +278,7 @@ references:
       command: |
         cd Tests/demistomock
         mv demistomock.py demisto.py
-        pydoc-markdown -p demisto > "$CIRCLE_ARTIFACTS/demistoclass.md"
+        pydoc-markdown -p demisto > $CIRCLE_ARTIFACTS/demistoclass.md
         mv demisto.py demistomock.py
 
   collect_test_list_and_content_packs: &collect_test_list_and_content_packs
