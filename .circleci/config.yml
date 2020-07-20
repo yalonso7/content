@@ -271,6 +271,15 @@ references:
       command: |
         ./Documentation/commonServerDocs.sh
 
+  demisto_class_documentation: &demisto_class_documentation
+    run:
+      name: Demisto Class Documentation
+      when: always
+      command: |
+        mv Tests/demistomock/demistomock.py Tests/demistomock/demisto.py
+        pydoc-markdown -p demisto > "$CIRCLE_ARTIFACTS/demistoclass.md"
+        mv Tests/demistomock/demisto.py Tests/demistomock/demistomock.py
+
   collect_test_list_and_content_packs: &collect_test_list_and_content_packs
     run:
       name: Collect Test List And Content Packs
@@ -448,6 +457,7 @@ jobs:
       - *create_id_set
       - *build_content_descriptor
       - *common_server_documentation
+      - *demisto_class_documentation
       - *create_artifact
       - run:
           name: Download Configuration
