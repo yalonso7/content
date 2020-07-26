@@ -1,7 +1,7 @@
-id: Mimecast test
+id: Mimecast test_copy1
 version: -1
 vcShouldKeepItemLegacyProdMachine: false
-name: Mimecast test
+name: Mimecast test_copy1
 starttaskid: "0"
 tasks:
   "0":
@@ -21,7 +21,7 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 695,
+          "x": 50,
           "y": 50
         }
       }
@@ -49,8 +49,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 1770
+          "x": 50,
+          "y": 5095
         }
       }
     note: false
@@ -92,8 +92,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 370
+          "x": 50,
+          "y": 3695
         }
       }
     note: false
@@ -123,8 +123,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 1420
+          "x": 50,
+          "y": 4745
         }
       }
     note: false
@@ -154,8 +154,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 1070
+          "x": 50,
+          "y": 4395
         }
       }
     note: false
@@ -199,7 +199,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 1070
+          "y": 6145
         }
       }
     note: false
@@ -230,7 +230,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 1420
+          "y": 6495
         }
       }
     note: false
@@ -265,7 +265,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 1770
+          "y": 6845
         }
       }
     note: false
@@ -296,7 +296,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 2120
+          "y": 7195
         }
       }
     note: false
@@ -332,8 +332,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 370
+          "x": 50,
+          "y": 1245
         }
       }
     note: false
@@ -367,8 +367,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 720
+          "x": 50,
+          "y": 1595
         }
       }
     note: false
@@ -406,8 +406,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 1070
+          "x": 50,
+          "y": 1945
         }
       }
     note: false
@@ -442,8 +442,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 1420
+          "x": 50,
+          "y": 2295
         }
       }
     note: false
@@ -466,8 +466,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 695,
-          "y": 2645
+          "x": 50,
+          "y": 7720
         }
       }
     note: false
@@ -489,9 +489,6 @@ tasks:
       brand: ""
     nexttasks:
       '#none#':
-      - "5"
-      - "10"
-      - "2"
       - "40"
     scriptarguments:
       all:
@@ -504,7 +501,7 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 695,
+          "x": 50,
           "y": 195
         }
       }
@@ -533,7 +530,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 2470
+          "y": 7545
         }
       }
     note: false
@@ -560,8 +557,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 1770
+          "x": 50,
+          "y": 2645
         }
       }
     note: false
@@ -588,8 +585,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 2120
+          "x": 50,
+          "y": 5445
         }
       }
     note: false
@@ -626,8 +623,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 1945
+          "x": 50,
+          "y": 2820
         }
       }
     note: false
@@ -657,8 +654,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 2295
+          "x": 50,
+          "y": 5620
         }
       }
     note: false
@@ -704,7 +701,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 1245
+          "y": 6320
         }
       }
     note: false
@@ -742,7 +739,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 1595
+          "y": 6670
         }
       }
     note: false
@@ -780,7 +777,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 1945
+          "y": 7020
         }
       }
     note: false
@@ -826,7 +823,7 @@ tasks:
       {
         "position": {
           "x": 50,
-          "y": 2295
+          "y": 7370
         }
       }
     note: false
@@ -863,8 +860,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 2120
+          "x": 50,
+          "y": 2995
         }
       }
     note: false
@@ -885,7 +882,7 @@ tasks:
       brand: ""
     nexttasks:
       "yes":
-      - "14"
+      - "52"
     separatecontext: false
     conditions:
     - label: "yes"
@@ -901,8 +898,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 2470
+          "x": 50,
+          "y": 5795
         }
       }
     note: false
@@ -939,8 +936,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 1945
+          "x": 50,
+          "y": 5270
         }
       }
     note: false
@@ -977,8 +974,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 1595
+          "x": 50,
+          "y": 2470
         }
       }
     note: false
@@ -1012,8 +1009,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 1595
+          "x": 50,
+          "y": 4920
         }
       }
     note: false
@@ -1050,8 +1047,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 1245
+          "x": 50,
+          "y": 2120
         }
       }
     note: false
@@ -1088,8 +1085,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 895
+          "x": 50,
+          "y": 1770
         }
       }
     note: false
@@ -1123,8 +1120,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 1245
+          "x": 50,
+          "y": 4570
         }
       }
     note: false
@@ -1158,8 +1155,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 545
+          "x": 50,
+          "y": 3870
         }
       }
     note: false
@@ -1196,8 +1193,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 545
+          "x": 50,
+          "y": 1420
         }
       }
     note: false
@@ -1231,8 +1228,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 2295
+          "x": 50,
+          "y": 3170
         }
       }
     note: false
@@ -1253,7 +1250,7 @@ tasks:
       brand: ""
     nexttasks:
       "yes":
-      - "14"
+      - "51"
     separatecontext: false
     conditions:
     - label: "yes"
@@ -1269,8 +1266,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 910,
-          "y": 2470
+          "x": 50,
+          "y": 3345
         }
       }
     note: false
@@ -1302,8 +1299,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 1945
+          "x": 50,
+          "y": 370
         }
       }
     note: false
@@ -1335,8 +1332,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 2120
+          "x": 50,
+          "y": 545
         }
       }
     note: false
@@ -1373,8 +1370,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 2295
+          "x": 50,
+          "y": 720
         }
       }
     note: false
@@ -1397,7 +1394,7 @@ tasks:
       brand: MimecastV2
     nexttasks:
       '#none#':
-      - "14"
+      - "50"
     scriptarguments:
       group_id:
         simple: eNoVzssKgkAUgOF3OduE8lKj7izJiFHEFrlwMzjHEOcSM81ARO-e7X8-_g9YHJ3BmUMOLb0M241y_UNGvOoygdO78Yz6uO8W7hS7Hgi5eyarokZ5bOkSt_2eoi51TSg7KwhAcPaEfGLCYgCjsy8t0Yya4-qfbk0ZFoSkuzX0aOysFeRhAJMWHM3_IcmiNPn-ALcQMIg
@@ -1408,8 +1405,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 1340,
-          "y": 2470
+          "x": 50,
+          "y": 895
         }
       }
     note: false
@@ -1449,8 +1446,8 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 720
+          "x": 50,
+          "y": 4045
         }
       }
     note: false
@@ -1492,8 +1489,113 @@ tasks:
     view: |-
       {
         "position": {
-          "x": 480,
-          "y": 895
+          "x": 50,
+          "y": 4220
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+  "50":
+    id: "50"
+    taskid: b3730308-f1d3-40e3-81a9-faa354c0fce3
+    type: regular
+    task:
+      id: b3730308-f1d3-40e3-81a9-faa354c0fce3
+      version: -1
+      name: Delete Context
+      scriptName: DeleteContext
+      type: regular
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "10"
+    scriptarguments:
+      all:
+        simple: "yes"
+      index: {}
+      key: {}
+      keysToKeep: {}
+      subplaybook: {}
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 1070
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+  "51":
+    id: "51"
+    taskid: 8dc01957-eb45-4257-86a3-1ad4cd21d041
+    type: regular
+    task:
+      id: 8dc01957-eb45-4257-86a3-1ad4cd21d041
+      version: -1
+      name: Delete Context
+      scriptName: DeleteContext
+      type: regular
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "2"
+    scriptarguments:
+      all:
+        simple: "yes"
+      index: {}
+      key: {}
+      keysToKeep: {}
+      subplaybook: {}
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 3520
+        }
+      }
+    note: false
+    timertriggers: []
+    ignoreworker: false
+    skipunavailable: false
+    quietmode: 0
+  "52":
+    id: "52"
+    taskid: e1e7fbe2-5fd8-42d0-8770-8c712009e8cc
+    type: regular
+    task:
+      id: e1e7fbe2-5fd8-42d0-8770-8c712009e8cc
+      version: -1
+      name: Delete Context
+      scriptName: DeleteContext
+      type: regular
+      iscommand: false
+      brand: ""
+    nexttasks:
+      '#none#':
+      - "5"
+    scriptarguments:
+      all:
+        simple: "yes"
+      index: {}
+      key: {}
+      keysToKeep: {}
+      subplaybook: {}
+    separatecontext: false
+    view: |-
+      {
+        "position": {
+          "x": 50,
+          "y": 5970
         }
       }
     note: false
@@ -1506,8 +1608,8 @@ view: |-
     "linkLabelsPosition": {},
     "paper": {
       "dimensions": {
-        "height": 2660,
-        "width": 1670,
+        "height": 7735,
+        "width": 380,
         "x": 50,
         "y": 50
       }
