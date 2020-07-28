@@ -17,7 +17,7 @@ gcloud auth activate-service-account --key-file="$KF" > auth.out 2>&1
 echo "Auth loaded successfully."
 
 GCS_MARKET_BUCKET="marketplace-dist"
-GCS_BUILD_BUCKET="marketplace-dist-dev/backup-7-28-1216"
+GCS_BUILD_BUCKET="marketplace-dist-dev/backup-7-28-1243"
 SOURCE_PATH="content/packs"
 
 echo "Copying master files"
